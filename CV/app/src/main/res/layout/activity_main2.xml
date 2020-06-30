@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your CV"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:id="@+id/textviewname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/textviewage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text view"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/textviewname"
+        android:layout_marginTop="90dp"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/textviewphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text view"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/textviewage"
+        android:layout_marginTop="90dp"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/textviewjob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text view"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/textviewphone"
+        android:layout_marginTop="90dp"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/textviewemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text view"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/textviewjob"
+        android:layout_marginTop="90dp"
+        android:textSize="30dp"/>
+
+
+
+
+</RelativeLayout>

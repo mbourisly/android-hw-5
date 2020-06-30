@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="580dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/butoon"
+        android:text="Submit"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="255dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/round_edittext"
+        android:ems="10"
+        android:hint="    age"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/useercircle"
+        android:layout_width="55dp"
+        android:layout_height="47dp"
+        android:layout_alignBottom="@id/age"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="-2dp"
+        android:background="@drawable/usercircle" />
+
+    <EditText
+        android:background="@drawable/round_edittext"
+        android:id="@+id/Phone"
+        android:layout_width="255dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="   phone number"
+        android:inputType="phone"
+        android:layout_alignTop="@id/age"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="75dp"/>
+
+
+
+    <EditText
+        android:background="@drawable/round_edittext"
+        android:id="@+id/job"
+        android:layout_width="255dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="   your job"
+        android:inputType="text"
+        android:layout_alignTop="@id/Phone"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="75dp"/>
+
+
+    <EditText
+        android:background="@drawable/round_edittext"
+        android:id="@+id/mail"
+        android:layout_width="255dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="   e-mail"
+        android:inputType="textEmailAddress"
+        android:layout_alignTop="@id/job"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="75dp"/>
+
+    <TextView
+        android:id="@+id/phonecircle"
+        android:layout_width="55dp"
+        android:layout_height="47dp"
+        android:layout_alignBottom="@id/Phone"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="-2dp"
+        android:background="@drawable/phonecircle" />
+
+    <TextView
+        android:id="@+id/usercircle2"
+        android:layout_width="55dp"
+        android:layout_height="47dp"
+        android:layout_alignBottom="@id/job"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="-2dp"
+        android:background="@drawable/usercircle" />
+
+    <TextView
+        android:id="@+id/mailuser"
+        android:layout_width="55dp"
+        android:layout_height="47dp"
+        android:layout_alignBottom="@id/mail"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="-2dp"
+        android:background="@drawable/emailcircle" />
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="254dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/round_edittext"
+        android:ems="10"
+        android:hint="    name"
+        android:inputType="text" />
+
+    <TextView
+        android:background="@drawable/user_image"
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/name"
+        android:layout_marginLeft="55dp"/>
+
+
+</RelativeLayout>
